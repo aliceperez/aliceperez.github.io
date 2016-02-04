@@ -12,8 +12,10 @@
     <link rel="stylesheet" type="text/css" href="css/circle-animate.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<script src="js/modernizr.custom.js"></script>
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <nav class="navbar navbar-default navbar-fixed-top" style="padding-top:0px; height:70px">
@@ -24,6 +26,7 @@
           <ul>
             <a href="#inicio"><li class="u-quote">Inicio</li></a>
             <a href="#service"><li class="u-quote">Que hago</li></a>
+            <a href="#how"><li class="u-quote">Como lo hago</li></a>
             <a href="#portafolio"><li class="u-quote">Portafolio</li></a>
             <a href="#bio"><li class="u-quote">Sobre mi</li></a>
             <a href="#contacto"><li class="u-quote">Contactame</li></a>
@@ -31,12 +34,13 @@
         </div> 
     </nav>
 <!-- Home -->
+
 <section id="inicio" class="inicio-section">
  <div class="container">
     <div class="row">
-       <h1>UI/UX Designer & Front-end Developer</h1>
+       <h1 class="animated ">UI/UX Designer & Front-end Developer</h1>
        <h2 class="u-quote">Diseñando y construyendo productos digitales con amor</h2>
-       <a href="#service" class="btn btn-circle page-scroll">
+       <a href="#service" class="btn btn-circle page-scroll animated pulse ">
         <i class="fa fa-angle-double-down animated"></i>
     </a>
 </div>
@@ -47,34 +51,35 @@
     <div class="container">
         <div class="row">
             <h2 class="u-h2">¿Qué hago?</h2>
+            
         </div>
 
-        <div class="row icon-box os-animation" data-os-animation="" data-os-animation-delay="0s">
+        <div class="row icon-box">
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                    <img src="image/ui.png" alt="...">
+                    <img src="image/service1.png" alt="..." class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.2s">
                     <div class="caption">
                         <h3 class="u-subtitle">Diseño de interfaces</h3>
-                        <p class="u-text">Yo diseño conceptos visuales para sitios web y aplicaciones asi como tambien interfaces de usuario increíbles que funcionan a la perfección en pc, tabletas y celulares</p>
+                        <p class="u-text">Yo diseño interfaces de usuario increíbles que funcionan a la perfección en pc, tabletas y celulares</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                    <img src="image/ux.png" alt="...">
+                    <img src="image/service-.png" alt="..." class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.5s">
                     <div class="caption">
-                        <h3 class="u-subtitle">Diseño de experiencia</h3>
-                        <p class="u-text">Mi propósito es identificar exactamente quienes son los principales usuarios y luego implementar patrones de diseños para crear una interfaz de usuario que responde a las necesidades reales de los usuarios</p>
+                    <h3 class="u-subtitle">Diseño de experiencia</h3>
+                        <p class="u-text">Implementando patrones de diseños, yo puedo crear interfaces de usuario que responden a las necesidades reales de los usuarios</p>
                     </div>
                 </div>
             </div>
 
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                    <img src="image/front.png" alt="...">
+                    <img src="image/service2.png" alt="..." class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.8s">
                     <div class="caption">
                         <h3 class="u-subtitle">Desarrollo Front-end</h3>
-                        <p class="u-text">Especializada en tecnologías y frameworks front-end. Puedo construir sitios web funcionales y fácil de usar,usando un código limpio que los motores de búsqueda aman</p>
+                        <p class="u-text">Puedo construir sitios web funcionales usando herramientas, frameworks y un código limpio que los motores de búsqueda aman</p>
                     </div>
                 </div>
             </div>
@@ -82,147 +87,134 @@
     </div>
 </section>
 <section id="how" class="how-section" >
-    <div class="container ">
+    <div class="container" >
         <div class="row">
             <h2 class="u--h2">¿Cómo lo hago?</h2>
+                <p class="u-title-content">
+                    Mi proceso no es único pero en solo tres pasos puede hacer que la magia suceda.
+                </p>
         </div>
-        <div class="row icon-box os-animation" data-os-animation="" data-os-animation-delay="0s">
-            <div class="col-xs-6 col-md-3">
-                <div class="">
-                    <div class="circle" style="background:#9b59b6;">
-                        <img src="image/step1.png" alt="...">
-                    </div>
-                    <div class="caption">
-                        <h3 class="u--subtitle">Research & Analisis</h3>
-                    </div>
-                </div>
+        <div class="row " >
+            <div class="col-sm-12 col-md-4 icon">
+                <img class="img-responsive os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0.3s" src="image/analysis.png">
             </div>
-            <div class="col-xs-6 col-md-3">
-                <div class="">
-                    <div class="circle" style="background:#e74c3c;">
-                        <img src="image/step2.png" alt="...">
-                    </div>
-                    <div class="caption">
-                        <h3 class="u--subtitle">Wireframe & prototipos</h3>
-                    </div>
-                </div>
+            <div class="col-sm-12 col-md-7" >
+                <h2 class="u-title os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.4s">Analisis</h2>
+                <p class="u--quote os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.6s">
+                    Una vez recibo los requerimientos de un cliente o tengo una nueva idea, mi proceso de análisis inicia. Tiendo hacer todas las preguntas posibles para asegurarme de cumplir con las necesidades del usuario. En esta etapa construyo los casos de uso, personas y mi roadmap.
+                </p>
             </div>
-
-            <div class="col-xs-6 col-md-3">
-                <div class="">
-                    <div class="circle" style="background: #f1c40f;">
-                        <img src="image/step3.jpg" alt="...">
-                    </div>
-                    <div class="caption">
-                        <h3 class="u--subtitle">Diseño limpio y hermoso</h3>
-                    </div>
-                </div>
+        </div>
+        <div class="row ">
+            <div class="col-sm-12 col-md-4">
+                <img class="img-responsive os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0.3s" src="image/ui.png">
             </div>
-
-            <div class="col-xs-6 col-md-3">
-                <div class="">
-                    <div class="circle" style="background: #2ecc71;">
-                        <img src="image/step4.jpg" alt="...">
-                    </div>
-                    <div class="caption">
-                        <h3 class="u--subtitle">Escribir Codigo</h3>
-                    </div>
-                </div>
+            <div class="col-sm-12 col-md-7" >
+                <h2 class="u-title os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.4s">Diseño</h2>
+                <p class="u--quote os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.6s"> Esta etapa comienza en papel. Atraves de wireframes tomo las primeras decisiones acerca del diseño, luego con programas especializados creo hermosos diseños para decidir colores, tipografías, y las animaciones.
+                </p>
             </div>
         </div>
         <div class="row">
-            <h3 class="u--quote">Para conocer mas acerca de este proceso vea este caso de estudio</h3>
-            <button class="btn--"><a href="" class="u--subtitle">Ver mas</a></button>
+            <div class="col-sm-12 col-md-4">
+                <img class="img-responsive os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0.3s" src="image/code.png">
+            </div>
+            <div class="col-sm-12 col-md-7" >
+                <h2 class="u-title os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.4s">Codigo</h2>
+                <p class="u--quote os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.6s">
+                    Por ultimo hago de mis diseños una realidad. Utilizando las últimas tecnologías web y herramientas de desarrollo front-end. Me aseguro de que el website funcione completamente en los diferentes navegadores y resoluciones de pantallas para obtener los mejores resultados.
+                </p>
+            </div>
         </div>
     </div>
-</section>
+</section>            
 <!-- portafolio Section -->
 <section id="portafolio" class="portafolio-section ">
-        <div class="container">
+        <div class="" style="text-align:justify">
             <div class="col-lg-12">
-                <h2 class="u-h2">Portafolios<h2>
+                <h2 class="u-h2">Mira lo que he estado haciendo!<h2>
             </div>
 
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-link fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="image\portfolio\3.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="http://aliceperez.github.io/Template/"  target="_blank" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-link fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="image\portfolio\4.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="http://aliceperez.github.io/404-page-not-found/" target="_blank" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-link fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="image\portfolio\6.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#http://aliceperez.github.io/jsonplaceholder/" target="_blank" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-link fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="image\portfolio\1.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="http://aliceperez.github.io/mustache.github.com/"  target="_blank"class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-link fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="image\portfolio\2.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="http://aliceperez.github.io/Unstyle-onepage/" target="_blank" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-link fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="image\portfolio\5.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
+            <ul class="grid cs-style-7">
+                <li class="os-animation" data-os-animation="pulse" data-os-animation-delay=".5s">
+                    <figure>
+                        <a href="http://aliceperez.github.io/Template/"  target="_blank"><img class="overlay" src="image/portafolio/1.png" alt="img01"></a>
+                        <figcaption>
+                            <h3>Notify</h3>
+                            <span>Reto personal - PSD to HTML</span>
+                            
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="os-animation" data-os-animation="pulse" data-os-animation-delay=".5s">
+                    <figure>
+                        <a href="http://aliceperez.github.io/404-page-not-found/" target="_blank"><img src="image/portafolio/2.png" alt="img01"></a>
+                        <figcaption>
+                            <h3>Page not found</h3>
+                            <span>Reto personal - html & css</span>
+                            
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="os-animation" data-os-animation="pulse" data-os-animation-delay=".5s">
+                    <figure>
+                        <a href="http://aliceperez.github.io/wonder/" target="_blank"><img src="image/portafolio/3.png" alt="img01"></a>
+                        <figcaption>
+                            <h3>WonderGrid</h3>
+                            <span>Sistema de Grillas </span>
+                          
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="os-animation" data-os-animation="pulse" data-os-animation-delay=".5s">
+                    <figure >
+                        <a href="http://aliceperez.github.io/jsonplaceholder/" target="_blank"><img src="image/portafolio/4.png" alt="img01"></a>
+                        <figcaption>
+                            <h3>JsonPlaceHolder</h3>
+                            <span>Propuesta de rediseño</span>
+
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="os-animation" data-os-animation="pulse" data-os-animation-delay=".5s">
+                    <figure>
+                        <a href="http://aliceperez.github.io/Unstyle-onepage/" target="_blank"><img src="image/portafolio/5.png" alt="img01"></a>
+                        <figcaption>
+                            <h3>Unstyle Template</h3>
+                            <span>Reto personal- html & css</span>
+
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="os-animation" data-os-animation="pulse" data-os-animation-delay=".5s">
+                    <figure>
+                        <a href="http://aliceperez.github.io/mustache.github.com/" target="_blank"><img src="image/portafolio/6.png" alt="img01"></a>
+                        <figcaption>
+                            <h3>Mustache</h3>
+                            <span>Propuesta de rediseño</span>
+
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
         </div>
-    </section>
+</section>
 
 <section id="bio" class="bio-section">
     <div class="container">
-        <h2 class="u--h2">Sobre mi</h2>
+        <h2 class="u-h2">Más sobre mi</h2>
     <div class="row bio-container">
           <figure>
             <img src="image/alice.jpg" class="foto-box">
         </figure>
         <div class="bg-bio">
             <p class="u-text-content">
-                Soy una diseñadora web y desarrollador front-end de 21 años de República Dominicana. He estado trabajando en tecnología desde el 2013. Me gusta definirme como una desarrolladora disciplinada y diseñadora apasionada.
+                Soy una diseñadora web y desarrolladora front-end de 21 años de República Dominicana. He estado trabajando en tecnología desde el 2014. Me gusta definirme como una desarrolladora disciplinada y diseñadora apasionada.
             </p>
             <p class="u-text-content">
-                Siempre me mantengo estudiando los temas de actualidad sobre lo que me facina hacer para luego aplicar ese conocimiento. Me centro en el estudio online como mi principal fuente de aprendizaje.Si quieres saber lo que he estado aprendiendo te dejo la siguiente lista.
+                Siempre me mantengo estudiando los temas de actualidad sobre lo que mas me gusta hacer para luego aplicar ese conocimiento. Me centro en el estudio online como mi principal fuente de aprendizaje.Si quieres saber lo que he estado aprendiendo te dejo la siguiente lista.
             </p>
-        </div>  
+        </div>   
     </div>
         <div class="row">
           <div class="col-xs-6 col-md-4">
@@ -255,12 +247,13 @@
             </ul>
           </div>
         </div> 
+    </div>     
 </div>
 </section>
 <!-- contacto -->
 <section id="contacto" class="contacto-section">
     <div class="container">
-      <h2 class="u-h2"> Contactos</h2>
+      <h2 class="u-h2"> Contactame</h2>
       <p class="u-subtitle"> alicejohannaperezvillanueva@gmail.com</p>
       <div class="u-subtitle">
           <a href="https://twitter.com/AlicePerezVilla" style="color:#55acee" class="u-h3" target="_black"><i class="fa fa-twitter"></i></a>
@@ -310,6 +303,7 @@
     });
 
 </script>
+<script src="js/toucheffects.js"></script>
 <footer>
     <div id="footer2"><p> Made with <i class="fa fa-heart"></i> in Santo Domingo by Alice Perez</p>
     <p>Thanks Boostrap, Flaticon, Subtlepatterns and fontawesome</p></div>

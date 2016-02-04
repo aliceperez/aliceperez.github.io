@@ -160,7 +160,7 @@ Copyright (c) 2015 Daniel Eden
   }
 }
 
-.pulse {
+.pulse{
   -webkit-animation-name: pulse;
   animation-name: pulse;
 }
@@ -185,19 +185,22 @@ Copyright (c) 2015 Daniel Eden
     -webkit-transform: scale3d(1.15, 0.85, 1);
     transform: scale3d(1.15, 0.85, 1);
   }
-
+  55% {
+    -webkit-transform: scale3d(1.30, 0.90, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
   65% {
     -webkit-transform: scale3d(.95, 1.05, 1);
     transform: scale3d(.95, 1.05, 1);
   }
 
   75% {
-    -webkit-transform: scale3d(1.05, .95, 1);
+    -webkit-transform: scale3d(1.5, .95, 1);
     transform: scale3d(1.05, .95, 1);
   }
 
   100% {
-    -webkit-transform: scale3d(1, 1, 1);
+    -webkit-transform: scale3d(1, 1, 2);
     transform: scale3d(1, 1, 1);
   }
 }
